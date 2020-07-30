@@ -29,8 +29,8 @@
 		"l2-reg": 1e-6
     },
 	"training": {
-		"src_dir": "./data_multi/bin/training_set/Neutral/*.bin",
-		"trg_dir": "./data_multi/bin/training_set/Amused/*.bin",
+		"src_dir": "./data_multi/bin/training_set/SOURCE_SINGER_ID/*.bin",
+		"trg_dir": "./data_multi/bin/training_set/TARGET_SINGER_ID/*.bin",
 		"batch_size": 256,
 		"lr": 1e-5,
 		"lr_schedule": [ [999, 1e-4]],
