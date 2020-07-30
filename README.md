@@ -20,8 +20,10 @@ In this work, we propose a singing voice conversion framework that is based on V
   - glob
   - scipy
 <br/>
+
 ### Database
-In this work, we use  NUS  Sung  and  Spoken  Lyrics  Corpus (NUS-48E corpus) [2], which consists of the sung and spoken lyrics  of  48  English  songs  by  12  professional  singers.  We choose  two  male  singers  and  one  female  singers  for  all  the experiments.  For  each  singer,  6  songs  are  used  for  training and evaluation.
+
+In this work, we use  NUS  Sung  and  Spoken  Lyrics  Corpus (NUS-48E corpus) [2], which consists of the sung and spoken lyrics  of  48  English  songs  by  12  professional  singers.  We choose  two  male  singers  and  one  female  singers  for  all  the experiments.  For  each  singer,  6  songs  are  used  for  training and evaluation.<br/>
 
 Please make sure your singing data is saved in the following structure:<br/>
 "./data_multi/wav/training_data/SINGERID/xxxx.wav"<br/>
