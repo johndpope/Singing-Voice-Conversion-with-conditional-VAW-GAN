@@ -48,7 +48,7 @@ $ python main-vawgan.py
 ```
 5. **Conversion.**
 ```Bash
-$ python convert-vawgan.py -- src 'SOURCE_SINGER_ID' -- trg 'TARGET_SINGER_ID' -- checkpoint './logdir/train/PLEASE_SPECIFY_YOUR_CHECKPOINT/model.ckpt-46860'
+$ python convert-vawgan.py --src 'SOURCE_SINGER_ID' --trg 'TARGET_SINGER_ID' --checkpoint './logdir/train/PLEASE_SPECIFY_YOUR_CHECKPOINT/model.ckpt-46860'
 ```
 ## References
 [1] Hsu, Chin-Cheng, et al. "Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks." arXiv preprint arXiv:1704.00849 (2017). </br>
