@@ -25,9 +25,9 @@ In this work, we propose a singing voice conversion framework that is based on V
 
 In this work, we use  NUS  Sung  and  Spoken  Lyrics  Corpus (NUS-48E corpus) [2], which consists of the sung and spoken lyrics  of  48  English  songs  by  12  professional  singers.  We choose  two  male  singers  and  one  female  singers  for  all  the experiments.  For  each  singer,  6  songs  are  used  for  training and evaluation.<br/>
 
-Please make sure your singing data is saved in the following structure:<br/>
-"./data_multi/wav/training_data/SINGERID/xxxx.wav"<br/>
-"./data_multi/wav/evaluation_data/SINGERID/xxxx.wav"
+Please make sure your singing data is saved in the following structure and change the path in .json file:<br/>
+"./data_multi/wav/training_set/SOURCE_SINGERID/xxxx.wav"<br/>
+"./data_multi/wav/evaluation_set/TARGET_SINGERID/xxxx.wav"
 
 ## Usage
 1. **Activate your virtual enviroment.**
@@ -35,9 +35,25 @@ Please make sure your singing data is saved in the following structure:<br/>
 source activate [your env]
 ```
 2. **Extract features from raw audio.**
-3. **Train the network.**
-4. **Conversion.**
-
+```Bash
+$ python analyzer.py 
+```
+3. **Analyze features.**
+```Bash
+$ python build.py 
+```
+4. **Train the network.**
+```Bash
+$ python main-vawgan.py 
+```
+5. **Conversion.**
+```Bash
+$ python convert-vawgan.py --checkpoint './logdir/train/PLEASE_SPECIFY_YOUR_CHECKPOINT/model.ckpt-46860'
+```
 ## References
 [1] Hsu, Chin-Cheng, et al. "Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks." arXiv preprint arXiv:1704.00849 (2017).
 [2] Z. Duan, H. Fang, B. Li, K. Chai Sim, and Y. Wang, “The nus sung andspoken lyrics corpus: A quantitative comparison of singing and speech,”APSIPA, 2013
+
+## Notes
+1. The codes are based on VAW-GAN Voice Conversion: https://github.com/JeremyCCHsu/vae-npvc/tree/vawgan
+2. Please contact me with my email: zhoukun@u.nus.edu if you are interested in our work.
