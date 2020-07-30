@@ -51,7 +51,7 @@ $ python main-vawgan.py
 $ python convert-vawgan.py --checkpoint './logdir/train/PLEASE_SPECIFY_YOUR_CHECKPOINT/model.ckpt-46860'
 ```
 ## References
-[1] Hsu, Chin-Cheng, et al. "Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks." arXiv preprint arXiv:1704.00849 (2017).
+[1] Hsu, Chin-Cheng, et al. "Voice conversion from unaligned corpora using variational autoencoding wasserstein generative adversarial networks." arXiv preprint arXiv:1704.00849 (2017). </br>
 [2] Z. Duan, H. Fang, B. Li, K. Chai Sim, and Y. Wang, “The nus sung andspoken lyrics corpus: A quantitative comparison of singing and speech,”APSIPA, 2013
 
 ## Notes
