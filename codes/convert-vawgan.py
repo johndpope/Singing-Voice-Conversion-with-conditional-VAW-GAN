@@ -15,8 +15,8 @@ from importlib import import_module
 args = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_string('corpus_name', 'singing_vc', 'Corpus name')
 tf.app.flags.DEFINE_string('checkpoint', './logdir/train/0226-1452-24-2020/model.ckpt-46860', 'root of log dir')
-tf.app.flags.DEFINE_string('src', 'Neutral', 'source speaker [SF1 - SM2]')
-tf.app.flags.DEFINE_string('trg', 'Angry', 'target speaker [SF1 - TM3]')
+tf.app.flags.DEFINE_string('src', 'SOURCE_SINGER_ID', 'source speaker [SF1 - SM2]')
+tf.app.flags.DEFINE_string('trg', 'TARGET_SINGER_ID', 'target speaker [SF1 - TM3]')
 tf.app.flags.DEFINE_string('output_dir', './logdir', 'root of output dir')
 tf.app.flags.DEFINE_string('module', 'model.vawgan', 'Module')
 tf.app.flags.DEFINE_string('model', 'VAWGAN', 'Model')
