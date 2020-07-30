@@ -23,9 +23,9 @@ In this work, we propose a singing voice conversion framework that is based on V
 ### Database
 In this work, we use  NUS  Sung  and  Spoken  Lyrics  Corpus (NUS-48E corpus) [2], which consists of the sung and spoken lyrics  of  48  English  songs  by  12  professional  singers.  We choose  two  male  singers  and  one  female  singers  for  all  the experiments.  For  each  singer,  6  songs  are  used  for  training and evaluation.
 
-Please make sure your singing data is saved in the following structure:
-"./data_multi/training_data/SINGERID/xxxx.wav"
-"./data_multi/evaluation_data/SINGERID/xxxx.wav"
+Please make sure your singing data is saved in the following structure:<br/>
+"./data_multi/wav/training_data/SINGERID/xxxx.wav"<br/>
+"./data_multi/wav/evaluation_data/SINGERID/xxxx.wav"
 
 ## Usage
 1. **Activate your virtual enviroment.**
