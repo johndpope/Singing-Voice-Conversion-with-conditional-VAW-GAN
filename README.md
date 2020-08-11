@@ -56,4 +56,4 @@ $ python convert-vawgan.py --src 'SOURCE_SINGER_ID' --trg 'TARGET_SINGER_ID' --c
 
 ## Notes
 1. The codes are based on VAW-GAN Voice Conversion: https://github.com/JeremyCCHsu/vae-npvc/tree/vawgan
-2. Please contact me with my email: zhoukun@u.nus.edu if you are interested in our work.
+2. Please feel free to contact me via my email: zhoukun@u.nus.edu if you are interested in our work.
