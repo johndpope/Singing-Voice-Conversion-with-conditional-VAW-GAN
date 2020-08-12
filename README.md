@@ -2,7 +2,7 @@
 This is the implementation of the paper "VAW-GAN for Singing Voice Conversion with Non-parallel Training Data". This work is submitted to APSIPA 2020.
 
 ## This work is about ...
-In this work, we propose a singing voice conversion framework that is based on VAW-GAN [1]. We train an encoder to disentangle singer identity and singing prosody (F0 contour) from phonetic content. By conditioning on singer identity and F0, the decoder generates output spectral features with unseen target singer identity, and improves the F0 rendering. Our proposed can significantly reduce the spectrum distortion and improve the converted sining quality. For more details, please refer to our paper.
+In this work, we propose a singing voice conversion framework that is based on VAW-GAN [1]. We train an encoder to disentangle singer identity and singing prosody (F0 contour) from phonetic content. By conditioning on singer identity and F0, the decoder generates output spectral features with unseen target singer identity, and improves the F0 rendering. Our proposed method can significantly reduce the spectrum distortion and improve the converted sining quality. For more details, please refer to our paper.
 
 ## Getting Started
 
